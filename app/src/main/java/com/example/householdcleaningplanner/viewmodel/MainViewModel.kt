@@ -67,7 +67,6 @@ class MainViewModel : ViewModel() {
         newTaskRef.set(task)
     }
 
-    // 3. Update Status
     // 3. Update Task Status (DEBUG VERSION)
     fun updateTaskStatus(taskId: String, isDone: Boolean) {
         if (taskId.isEmpty()) {
